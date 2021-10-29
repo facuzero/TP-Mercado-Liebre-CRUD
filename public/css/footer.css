@@ -1,0 +1,56 @@
+/* Footer */
+footer{
+    text-align: center;
+    margin: 10px;
+    size: 2em;
+    background-color: var(--lightgrey);
+}
+.icono{
+    color:var(--lightblue);
+    margin: 10px;
+    font-size: 2em;
+}
+h3{
+    font-size: 24px;
+}
+
+main{
+    font-size: 12px;
+    background-color: var(--light-grey);
+}
+.precio, .descuentos{
+    font-size:18px;
+    margin: 0;
+}
+footer .copy {
+    color: var(--dark-grey);
+    font-size: var(--paragraph);
+    margin:0 0 10px 
+}
+footer {
+    padding-top: 40px;
+}
+
+footer article {
+    margin-bottom: 40px;
+}
+
+footer article.footer-article {
+    text-align: center;
+}
+
+footer article.footer-article i{
+    color: var(--light_blue);
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+footer article.footer-article h5 {
+    font-size: var(--discounts-descriptions);
+}
+
+footer article.footer-article p {
+    font-size: var(--paragraph);
+    width: 77%;
+    margin: 0 auto;
+}

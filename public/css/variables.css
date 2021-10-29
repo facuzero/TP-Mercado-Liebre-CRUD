@@ -1,0 +1,15 @@
+/* Variables */
+:root{
+    --yellow: #EAC926;
+    --blue: #03264C;
+    --lightblue: #1259c3;
+    --dark-grey: #666;
+    --lightgrey: #ebebeb;
+    --green: #39b54a;
+    /* Font */
+    --font-roboto: "Roboto", sans-serif;
+    /* Font sizes */
+    --paragraph : 12px;
+    --title: 24px;
+    --prices: 18px;
+}
