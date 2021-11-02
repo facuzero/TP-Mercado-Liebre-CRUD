@@ -1,0 +1,29 @@
+.box-container{
+    display: flex;
+    justify-content: center;
+}
+.box-container form{
+    display: flex;
+    flex-direction: column;
+}
+.container, .container-check{
+    background-color: darkgrey;
+    color: whitesmoke;
+    padding-bottom: 5px;
+}
+.container-check{
+    flex-direction: row;
+}
+.container input{
+    border:none;
+    border-radius: 5px;
+    margin: 13px;
+    width: 70%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.container .error-message{
+    font-size: 15px;
+    color: red;
+}

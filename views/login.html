@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Ingresa</title>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <img class="logo" src="../public/images/logo-mercado-liebre.svg" alt="Logo de ML">
+            <p class="search-bar"> <input type="text" placeholder="Buscar productos,marcas"><button> <i
+                        class="fas fa-search"></i> </button> </p>
+            <p class="quote"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjetas de credito</p>
+        </div>
+        <nav class="listas">
+            <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="register.html">Registrate </a> <i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="">Mis compras </a> <i class="fas fa-shopping-basket"></i></li>
+            </ul>
+
+            <nav class="burger-menu">
+                <button> <i class="fas fa-bars"></i> </button>
+            </nav>
+        </nav>
+    </header>
+    <div class="box-container">
+        <form action="" method="post">
+            <div class="container"><label for="usuario">Nombre de usuario<input type="text" name="usser" id="usuario"></label></div>
+            <div class="container"><label for="contraseña">Contraseña<input type="password" name="password" id="contraseña"></label></div>
+            <div class="container"><label for="enviar"><button type="submit" name="send" id="enviar">Enviar</button></label></div>
+            <div class="container"><p class="error-message">*Datos incorrectos*</p></div>
+        </form>
+    </div>
+</body>
+</html>

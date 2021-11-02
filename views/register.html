@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Registro de usuario</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <img class="logo" src="../public/images/logo-mercado-liebre.svg" alt="Logo de ML">
+            <p class="search-bar"> <input type="text" placeholder="Buscar productos,marcas"><button> <i
+                        class="fas fa-search"></i> </button> </p>
+            <p class="quote"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjetas de credito</p>
+        </div>
+        <nav class="listas">
+            <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="login.html">Ingresa </a> <i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="">Mis compras </a> <i class="fas fa-shopping-basket"></i></li>
+            </ul>
+
+            <nav class="burger-menu">
+                <button> <i class="fas fa-bars"></i> </button>
+            </nav>
+        </nav>
+    </header>
+    <div class="box-container">
+        <form action="" method="post">
+            <div class="container">
+                <label for="nombre">
+                    <input type="text" name="name" id="nombre" placeholder="Nombre y apellido">
+                    <p class="error-message">*Debe ingresar nombre completo (min 3 letras)*</p>
+                </label>
+            </div>
+            <div class="container">
+                <label for="usuario"><input type="text" name="usser" id="usuario" placeholder="Nombre de usuario"></label>
+            </div>
+            <div class="container">
+                <label for="contraseña"><input type="password" name="password" id="contraseña" placeholder="Contraseña"></label>
+                <label for="confirmar"></label><input type="password" name="confirm" id="confirmar" placeholder="Confirmar contraseña">
+                <p class="error-message">*Las contraseñas no coinciden*</p>
+            </div>
+            <div class="container">
+                <label for="foto"><h3>Foto de perfil</h3><input type="file" name="picture" id="foto" accept=".jpg"></label>
+            </div>
+            <div class="container">
+                <label for="fecha"><h3>Fecha de nacimiento</h3><input type="date" name="date" id="fecha"></label>
+            </div>
+            <div class="container">
+                <label for="domicilio"><input type="text" name="adress" id="domicilio" placeholder="Domicilio"></label>
+            </div>
+            <div class="container-check">
+                <label><h3>Perfil del usuario</h3></label>
+                <label for="comprar">Comprador<input type="radio" name="account" id="comprar" value="Comprar"></label>
+                <label for="vender">Vendedor<input type="radio" name="account" id="vender" value="Vender"></label>
+            </div>
+            <div class="container-check">
+                <label><h3>Intereses</h3></label>
+                <label for="hogar">Hogar<input type="checkbox" name="favourites" id="hogar"></label>
+                <label for="electro">Electro<input type="checkbox" name="favourites" id="electro"></label>
+                <label for="indumentaria">Indumentaria<input type="checkbox" name="favourites"
+                        id="indumentaria"></label>
+                <label for="informatica">Informatica<input type="checkbox" name="favourites" id="informatica"></label>
+                <label for="jugueteria">Jugueteria<input type="checkbox" name="favourites" id="jugueteria"></label>
+                <label for="healthy">Vida sana<input type="checkbox" name="favourites" id="healthy"></label>
+            </div>
+            <div class="container">
+                <label for="enviar"><button type="submit" name="send" id="enviar">Enviar</button></label>
+                <label for="borrar"><button type="reset" name="reset" id="borrar">Borrar</button></label>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
