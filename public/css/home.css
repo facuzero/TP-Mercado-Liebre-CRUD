@@ -90,6 +90,20 @@ main article .icon-truck{
             display: inline-flex;
             max-width: 286px;
         }
+        .home .card:hover{
+            box-shadow: rgba(0, 0, 0, 0.3);
+        }
+        .home .card:hover + .card-content .icon-truck {
+            transform: rotateZ(270deg);
+            top:-2rem;
+            transition: rotateZ 4s, top 2s ease-in-out;
+        }
+        .home .card .card-content .descript{
+            display:none;
+        }
+        .home .card .card-content .descript:hover{
+            display:block;
+        }
         .burger-menu{
             display:none;
         }
