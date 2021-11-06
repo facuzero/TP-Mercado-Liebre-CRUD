@@ -7,6 +7,11 @@
     flex-direction: column;
     padding-top:6rem;
 }
+.box-container form .enviar:hover{
+    background:#0022AA;
+    color: white;
+    transition: all 1s;
+}
 .container, .container-check{
     background-color: darkgrey;
     color: whitesmoke;

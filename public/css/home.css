@@ -120,5 +120,19 @@ main article .icon-truck{
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
             max-width: 174px;
         }
-    
+        .footer-card{
+            display: flex;
+        }
+        .footer-card .card{
+            flex-wrap: wrap;
+        }
+        .footer-card .card .icono:hover{
+            color:var(--yellow);
+            font-size:50px;
+            transition:all 1s;
+        }
+        .copy{
+            text-align: center;
+
+        }
     }
