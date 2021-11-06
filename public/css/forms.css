@@ -5,6 +5,7 @@
 .box-container form{
     display: flex;
     flex-direction: column;
+    padding-top:6rem;
 }
 .container, .container-check{
     background-color: darkgrey;
