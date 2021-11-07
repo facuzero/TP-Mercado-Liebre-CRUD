@@ -21,7 +21,7 @@ main article .icon-truck{
     width:fit-content;
     padding:5px;
     position:absolute;
-    top: -4px;
+    top: 3px;
     right:20px;
 }
 
@@ -92,10 +92,10 @@ main article .icon-truck{
         }
         .home .card:hover{
             box-shadow: 0 0 50px rgba(0, 0, 0, 1);
-            max-width: 286px;
+            transform: scale(1.1);
             transition: all 0.7s;
         }
-        .home .card .card-content:hover .icon-truck:hover{
+        .home .card:hover .icon-truck{
             transform: rotate(-90deg);
             top:-2rem;
             transition: transform 0.3s, top 1s ease-in-out;
@@ -103,8 +103,8 @@ main article .icon-truck{
         .home .card .card-content .descript{
             display:none;
         }
-        .home .card .card-content .descript:hover{
-            display:block;
+        .home .card:hover .descript{
+            display: block;
         }
         .burger-menu{
             display:none;
