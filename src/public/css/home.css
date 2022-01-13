@@ -1,0 +1,138 @@
+.home .banner{
+    display: none;
+}
+/* Main */
+main.home{
+    margin: 0 auto;
+    width: 90%;
+    padding-top:15rem;
+}
+.home article{
+    margin: 10px;
+    text-align: initial;
+    border: solid var(--lightgrey) 15px;
+}         
+main article i, p.descuentos{
+    color: var(--green);
+}
+main article .icon-truck{
+    border: 1px solid var(--dark-grey);
+    border-radius: 50%;
+    width:fit-content;
+    padding:5px;
+    position:absolute;
+    top: -4px;
+    right:20px;
+}
+
+/* Section */
+.home.section-title{
+    margin-bottom: 25px 0;
+}
+.home .card{
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.home .card .card-content{
+    border-top: 1px solid var(--lightgrey);
+    padding: 15px;
+    position:relative;
+    
+}
+.home .card .card-content .product-info{
+    display:flex;
+    justify-content: space-between;
+}
+.home .card .card-content p:nth-child(1){
+    flex-grow: 0.3;
+}
+.home .card .card-content p:nth-child(2){
+    display: flex;
+    font-size:14px;
+    flex-grow: 0.7;
+}
+.home .card .card-content .descripciones{
+    color:var(--dark-grey);
+    font-size:15px;
+    margin-top:15px;
+}
+.home section p.descuentos{
+    font-size: 16px;
+}
+.home .descripciones{
+    font-size: 16px;
+    color:var(--dark-grey);
+}
+.home .descripciones, header nav.listas ul{
+    display: none;
+}
+     /*Media queries*/
+
+    /*Tablet*/
+    @media (min-width: 768px){
+        main.home{
+            
+            padding-top:6rem;
+        }
+        .home .banner{
+            display: block;
+        }
+        .home .category, .category select{
+            font-size: 25px;
+        }
+        .home .descripciones, header nav.listas ul{
+            display: flex;
+        }
+        .home .card{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            display: inline-flex;
+            max-width: 280px;
+        }
+        .home .card:hover{
+            box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+            max-width: 286px;
+            transition: all 0.7s;
+        }
+        .home .card .card-content:hover .icon-truck:hover{
+            transform: rotate(-90deg);
+            top:-2rem;
+            transition: transform 0.3s, top 1s ease-in-out;
+        }
+        .home .card .card-content .descript{
+            display:none;
+        }
+        .home .card .card-content .descript:hover{
+            display:block;
+        }
+        .burger-menu{
+            display:none;
+        }
+    }
+    /*Desktop*/
+    @media (min-width: 1024px){
+        .home section{
+            display: flex;
+            justify-content: space-between;
+        }
+        .home .card{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            max-width: 174px;
+        }
+        .footer-card{
+            display: flex;
+        }
+        .footer-card .card{
+            flex-wrap: wrap;
+        }
+        .footer-card .card .icono:hover{
+            color:var(--yellow);
+            font-size:50px;
+            transition:all 1s;
+        }
+        .copy{
+            text-align: center;
+
+        }
+    }
